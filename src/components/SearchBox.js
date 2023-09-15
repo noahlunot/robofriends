@@ -7,7 +7,7 @@ const SearchBox = (props) => {
             className="pa3 ba b--green bg-lightest-blue" 
             type="search" 
             placeholder="Search robots"
-            onChange={props.searchField}/>
+            onChange={props.searchRobot}/>
         </div>
     )
 }
