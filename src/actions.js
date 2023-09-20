@@ -19,3 +19,4 @@ export const requestRobots = () => (dispatch) => {
     .then(robots => dispatch({type: REQUEST_ROBOTS_SUCCESS, payload: robots}))
     .catch(error => dispatch({type: REQUEST_ROBOTS_FAILED, payload: error}))
 }
+
